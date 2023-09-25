@@ -1,0 +1,35 @@
+{
+  "name": "certificate-generator",
+  "version": "1.0.0",
+  "description": "Certificate Generator which can be used in industry of Learning Management System and others to certify their student or bulk sending certification email.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "dev:client": "cd client && npm start",
+    "dev:server": "cd server && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhcoded/certificate-generator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "reactjs",
+    "html",
+    "canvas",
+    "certificate"
+  ],
+  "author": "saurabhcoded",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhcoded/certificate-generator/issues"
+  },
+  "homepage": "https://github.com/saurabhcoded/certificate-generator#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "web3": "^4.1.2"
+  }
+}
